@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-CA" style="background-image: linear-gradient(to right, #cfe4f5, #fedcdb)">
+<html lang="en-CA" style="background-color:white">
 <head>
   <!-- created by Katrina Huang on November 16, 2024 -->
   <meta charset="UTF-8">
@@ -7,7 +7,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rasa:ital,wght@0,300..700;1,300..700&family=Ultra&display=swap" rel="stylesheet">
 
 <style>
-  a{
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  a {
     text-decoration: none;
     color: white;
   }
@@ -31,53 +36,60 @@
     float: right;
   }
   
-  li a{
+  li a {
     display: block;
     padding: 20px;
   }
   
-  li a:hover{
+  li a:hover {
     background-color: #c0b7cc;
   }
   
-  #logo1 {
+  #svtlogo img {
     position: absolute;
     top: -18px;
     left: -1px;
+    width: 200px;
+    height: 100px;
   }
   
-  #picture1 {
-    position: absolute;
+  #svtirh img {
+    margin-top: 64px;
     left: 0px;
-    top: 64px;
     opacity: 0.7;
+    width: 50vw;
+    height: 50vw;
   }
   
-  #container1 {
+  #logobackground {
+    background-image: linear-gradient(to right, #cfe4f5, #fedcdb);
     position: absolute;
-    width: 50%;
     top: 64px;
     left: 50%;
-    height: 588px;
+    width: 50vw;
+    height: 50vw;
   }
   
-  #logo2 {
+  #logo img {
     position: absolute;
-    left: 58%;
-    top: 75px;
+    left: 50%;
+    top: 50px;
+    width: 50vw;
+    height: 50vw;
   }
   
-  #picture2 {
+  #svtd img {
     position: absolute;
-    top: 652px;
-    left: 0px;
+    top: 799px;
     opacity: 0.7;
+    width: 100%;
   }
   
-  #picture3 {
+  #svtunits img {
     position: absolute;
-    left: 0px;
     top: 1386px;
+    width: 100%;
+    height: 100%; 
   }
   
   #picture4 {
@@ -154,27 +166,26 @@
     <li><a href="https://k262huan.github.io/assignment3-home/">Home</a></li>
   </ul>
   
-  <div id="logo1">
-    <img src="svtlogo.png" alt="seventeen's logo with the words seventeen next to it" style="width: 200px; height: 100px;">
+  <div id="svtlogo">
+    <img src="svtlogo.png" alt="seventeen's logo with the words seventeen next to it">
   </div>
   
-  <div id="picture1">
-    <img src="https://pbs.twimg.com/media/GYKyuHiakAA53QX?format=jpg&name=4096x4096" alt="a golden brown sandy beach with 13 men smiling while playing volleyball" style="width:50%; height: 50%;">
+  <div id="svtirh">
+    <img src="svtirh.jpeg" alt="a golden brown sandy beach with 13 men smiling while playing volleyball">
   </div>
   
-  <div id="container1" style="background-color:#92a8cf;">
+  <div id="logobackground"></div>
+  
+  <div id="logo">
+    <img src="logo.png" alt="seventeen's logo which is an unpside down triangle created with 3 trapezoids">
   </div>
   
-  <div id="logo2">
-    <img src="logo.png" alt="seventeen's logo which is an unpside down triangle created with 3 trapezoids" style="width:500px; height:500px;">
+  <div id="svtd">
+    <img src="members.jpg" alt="a group of 13 men dressed sitting in a cafe">
   </div>
   
-  <div id="picture2">
-    <img src="members.jpg" alt="a group of 13 men dressed sitting in a cafe" style="width: 100%;">
-  </div>
-  
-  <div id="picture3">
-    <img src="units.jpg" alt="13 men" style="width: 100%; height: 50%;">
+  <div id="svtunits">
+    <img src="units.jpg" alt="13 men">
   </div>
   
   <div id="picture4">
